@@ -1,0 +1,19 @@
+html{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: gainsboro;
+}
+header{
+    width: 100%;
+    color:blue;
+    text-align: center;
+}
+.content{
+width: 100%;
+font-style: italic;
+margin:auto;
+}
+footer{
+    width: 100%;
+    text-align: center;
+    border: 2px solid red;
+}

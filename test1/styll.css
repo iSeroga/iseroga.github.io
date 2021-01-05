@@ -1,0 +1,147 @@
+
+.backColor{
+    background-color: #eeeeee;
+    margin: 50px;
+}
+.menuButton > button{
+    border: none;
+    width: 10%;
+    height: 10%;
+}
+.backHd{
+    display: grid;
+    grid-template-columns: 1fr 4fr 2fr;
+}
+.siteName{
+    text-align: center;
+    text-decoration: underline;
+    color: #363636;
+    font-family: Cabin;
+    font-style: normal;
+    letter-spacing: normal;
+}
+.mainText{
+    padding: 10px;
+    display: grid;
+    justify-items: center;
+}
+.globalDown{
+    display: grid;
+    grid-template-columns: 50% 40%  10%;
+}
+.down > div{
+    display: grid;
+    padding: 1em;
+}
+.proba{
+    text-align: right;
+    margin-right: 3em;
+    /* Style for "Modern & s" */
+    color: #363636;
+    font-family: "Cabin - Semi Bold";
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 44px;
+    /* Text style for "M, odern &" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+.lowbut{
+    padding: 10px;
+    background-color: transparent;
+    border-color: silver;
+}
+.photo{
+    display: block;
+    margin: auto;
+    width: 80%;
+    height: 700px;
+    align-self: flex-end;
+    justify-content: center;
+}
+.glawPhoto{
+    height: 600px;
+}
+.menuPhoto{
+    width: 35px;
+    height: 25px;
+}
+.textOne{
+    /* Style for "Screen Web" */
+    width: 138px;
+    height: 12px;
+    color: #363636;
+    font-family: "Cabin - Semi Bold";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 43.91px;
+    text-align: left;
+    /* Text style for "S, creen W" */
+    font-style: normal;
+    letter-spacing: 0.15px;
+    line-height: normal;
+}
+.textSecond{
+    /* Style for "Screen web" */
+    width: 377px;
+    height: 108px;
+    color: #363636;
+    font-family: "Cabin - Semi Bold";
+    font-size: 28px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 44px;
+    text-align: left;
+    /* Text style for "S, creen w" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+nav > a{
+    /* Style for "portfolio" */
+    width: 350px;
+    height: 18px;
+    color: #000000;
+    font-family: Cabin;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 72px;
+    text-align: left;
+    /* Text style for "p, ortfoli" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-decoration: none;
+    padding: 10px;
+}
+.texrForth{
+    /* Style for "Lorem ipsu" */
+    width: 517px;
+    height: 103px;
+    color: #8e8e8e;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+
+}
+.textFifth{
+    color: #363636;
+    font-family: "Cabin - Semi Bold";
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 0.15px;
+    line-height: 43.91px;
+}
+footer{
+    margin-top: 100px;
+}
