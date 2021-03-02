@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    width: 100%;
+}
+h1{
+    font-family: "Ubuntu", sans-serif;
+}
+.nav-end{
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: "Noto Sans",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    font-style: normal;
+}
+li a:hover{
+    text-decoration: underline;
+}
+.container{
+    max-width: 1440px;
+    margin:0 auto;
+}
+header{
+    background: url("img/townfone.jpg") no-repeat center top / cover;
+}
+
+.lang{
+    margin-left: 29px;
+}
+.nav{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    padding-bottom:28px;
+    padding-top: 30px;
+
+}
+select {
+    -webkit-appearance: none;
+    -moz-box-sizing: border-box;
+    border: none;
+    background-color: transparent;
+}
+select:active, select:hover{
+    border: none;
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+}
+
+.nav ul{
+    display: flex;
+
+}
+ul,li {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.nav .logo{
+    margin-left: 114px;
+    margin-right: 59px;
+
+}
+.menu li{
+    margin-right: 40px;
+}
+/* second div */
+
+.offer{
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.lozung{
+    flex-wrap: wrap;
+    width: 484px;
+    font-size: 50px;
+    font-weight: 500;
+    margin-left:114px ;
+    color: #252525;
+}
+.text-blog{
+    margin-top: 200px;
+}
+.prius{
+    margin-left: -100px;
+    padding-top: 95px;
+}
+.skos{
+    background-image: url("img/skos.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
