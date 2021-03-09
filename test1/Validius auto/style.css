@@ -1,0 +1,397 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+header{
+    width: 100%;
+    display: block;
+    background: url("img/townfone.jpg ") no-repeat center / cover;
+    overflow: hidden;
+
+}
+h1{
+    font-family: "Ubuntu", sans-serif;
+}
+.nav-end{
+    display: flex;
+}
+p{
+    font-family: "Noto Sans",sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: "Noto Sans",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    font-style: normal;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+li a:hover{
+    text-decoration: underline;
+}
+.container{
+    max-width: 1440px;
+    margin:0 auto;
+    overflow: hidden;
+}
+.lang{
+    margin-left: 29px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    padding-bottom:28px;
+    padding-top: 30px;
+
+}
+select {
+    -webkit-appearance: none;
+    -moz-box-sizing: border-box;
+    border: none;
+    background-color: transparent;
+}
+select:active, select:hover{
+    border: none;
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+}
+
+.nav ul{
+    display: flex;
+
+}
+ul,li {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.nav .logo{
+    margin-left: 114px;
+    margin-right: 59px;
+
+}
+.menu li{
+    margin-right:38px;
+}
+/* second div */
+
+.offer{
+    display: flex;
+}
+/*///////////////////////////////////////////////////// */
+.lozung{
+    flex-wrap: wrap;
+    width: 484px;
+    font-size: 49px;
+    font-weight: 500;
+    display: block;
+    color: #252525;
+}
+.text-blog{
+    margin-top: 110px;
+}
+.text-blog-content{
+    margin-left:114px ;
+}
+.line{
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+.line:before {
+    content: '';
+    display:block;
+    position: absolute;
+    width: 100%;
+    height: 18px;
+    z-index:-1;
+    background-color: #F5D208;
+    left: -20px;
+    bottom: 0;
+}
+.btn{
+    background: linear-gradient(#FFFA7F, #FFD706);
+    margin-top:41px ;
+    color: #444444;
+    display: block;
+    font-size: 18px;
+    text-align: center;
+    line-height: 25px;
+    padding: 30px 35px;
+    border-radius: 10px;
+    width: 206px;
+    text-decoration: none;
+}
+.btn:hover{
+    background: linear-gradient(#FFD706,#FFFA7F);
+    text-decoration: none;
+}
+/*///////////////////////////////////////////////////// */
+.slider{
+    margin-top: -50px;
+    display: block;
+    position: relative;
+
+}
+.slider-block input{
+    display: none;
+}
+.slides{
+    height: 659px;
+}
+.prius{
+    margin-left: -110px;
+    padding-top: 50px;
+    margin-top: -10px;
+    }
+.skos{
+    background-image: url("img/skos.png");
+    background-repeat: no-repeat;
+    background-position: 50px -50px;
+    display: block;
+}
+/*/////////////////////////////// */
+.bottom {
+    margin-top: -130px;
+    background:url("img/perehod1.png") repeat-x ;
+    height: 100px;
+    width: 100%;
+    transform: rotate(180deg);
+}
+/*second-block*/
+.second-block{
+    padding-top:60px ;
+    display: flex;
+    background-color: white;
+}
+.second-block-top{
+    display: flex;
+}
+.second-block-top-text{
+    display: flex;
+    flex-wrap: wrap;
+    width: 573px;
+    margin-right: 40px;
+}
+.second-block-bottom{
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: url("img/olej1.png") no-repeat 200px,
+    url("img/olej2.png") no-repeat 600px;
+}
+.second-block-bottom-footer{
+    width: 100%;
+    background: #F5F5F5 url("img/perehod1.png") repeat-x;
+}
+/*/////////third block*/
+.third-block{
+    height: 300px;
+    width: 100%;
+    background-color: #F5F5F5;
+}
+.third-block-top{
+    padding-top: 60px;
+    width: 300px;
+    margin: 0 auto;
+}
+.third-block-top > h1{
+    font-size: 68px;
+}
+.third-block-bottom{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+.third-block-bottom > a{
+    font-size: 24px;
+    width: 258px;
+    text-align: center;
+}
+/* forth block/////////////////////////////*/
+.forth-block{
+    background:url("img/second-town.png") no-repeat center / cover;
+    height: 635px;
+
+}
+.forth-block-elements{
+    padding-top: 110px;
+    display: flex;
+}
+.forth-block-text-content > h1{
+    width: 550px;
+    font-size: 41px;
+    margin-left:10px ;
+
+}
+.forth-block-text-content >p{
+    margin-top: 16px;
+    width: 400px;
+    font-size: 18px;
+    font-weight: normal;
+}
+.forth-block-text-content{
+    margin-left: 120px;
+}
+.forth-block-photo >img{
+    margin-left: -150px;
+    display: block;
+}
+.forth-block-footer{
+    background:url("img/perehod1.png") repeat-x ;
+    width: 100%;
+    transform: rotate(180deg);
+    margin-top: -30px;
+}
+/*fifth-block/////////////////////////////////*/
+.fifth-block-top{
+    margin:45px auto;
+    width: 490px;
+    display: flex;
+}
+
+.fifth-block-top >h1{
+    font-size: 45px;
+}
+.fifth-block-top >h1 .line:first-child{
+    width:220px;
+}
+.fifth-block-slider{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/*  six-block///////////////////////*/
+.six-block-top{
+    margin:45px auto;
+    width: 490px;
+    display: flex;
+}
+.six-block-top > h1{
+    font-size: 45px;
+}
+.six-block-top >h1 .line:first-child{
+    width:280px;
+}
+.six-block-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.six-block-content-small{
+    display: flex;
+    flex-wrap: wrap;
+    width: 297px;
+
+}
+.six-block-content-small > img{
+    margin-bottom:5px;
+}
+.six-block-content-text{
+    width: 300px;
+    flex-wrap: wrap;
+    text-align: left;
+}
+.six-block-content-text-news{
+    padding-bottom:40px ;
+}
+
+.six-block-content-text-news p{
+    font-size: 16px;
+}
+
+.six-block-content-text-news h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.six-block-bottom{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.yellow-phone{
+    position: relative;
+}
+.yellow-phone h2{
+    margin-left: 110px;
+    font-size: 30px;
+    font-weight: normal;
+    width: 613px;
+}
+.ninja{
+    background-color: #E7E7E7;
+    border-radius: 20px;
+    padding: 11px 26px 15px 19px;
+    display: none;
+}
+.krug:hover .ninja{
+    display: block;
+    position: absolute;
+    top: 20px;
+    background-color:black ;
+}
+.six-block-footer{
+    width: 100%;
+    background: #E7E7E7 url("img/perehod1.png") repeat-x;
+}
+/*seven's-block//////////////////////////////*/
+.seven-block {
+    background-color: #E7E7E7;
+    display: flex;
+}
+.seven-block-content{
+    padding: 0 60px;
+    padding-bottom: 40px;
+}
+.seven-block-content td{
+    padding-top: 30px;
+    width: 340px;
+    font-weight: 300;
+    font-size: 18px;
+    font-style: normal;
+    color: #252525;
+
+}
+.seven-block-content-header{
+    font-size: 18px;
+    text-align: left;
+}
+.seven-block-content-header:after{
+    content: "";
+    display:block;
+    position: absolute;
+    width: 40px;
+    height: 2px;
+    background-color: #1A58A8;
+    margin-top:10px;
+}
+/*/////    footer/////////*/
+footer{
+    background: white;
+}
+.footer-content{
+    padding-left: 100px;
+    display: flex;
+}
+.footer-content > a{
+    margin-right: 40px;
+    padding:20px;
+    vertical-align: center;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
