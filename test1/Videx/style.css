@@ -191,14 +191,14 @@ input::placeholder {
     position: absolute;
     z-index: -1;
 }
-.file-decorate{
-    width: 318px;
+.file-decorate1{
     margin-top: 15px;
-    border: 1px solid green;
     border-radius: 10px 10px 10px 15px;
     padding: 14px 58px 13px 21px;
     background-color: white;
-    color: green;
+    color: #84C400;
+    width: 318px;
+    border: 1px solid #84C400;
     font-family: Ubuntu, serif;
     font-style: normal;
     font-weight: 500;
@@ -310,7 +310,37 @@ input::placeholder {
 }
 /*//////////////////////////////////////////////*/
 .left-block-six{
-    
+
+}
+.file-decorate2{
+    display: block;
+    background: #84C400;
+    color: white;
+    border-radius: 10px 10px 10px 15px;
+    padding: 14px 58px 13px 21px;
+    font-family: Ubuntu, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 14px;
+    margin-bottom: 15px;
+
+}
+.file-decorate2:hover {
+    color:  #84C400;
+    background-color: white;
+
+}
+.left-block-six button{
+    display: none;
+}
+.left-block-six p{
+    font-family: Ubuntu, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+
 }
 
 
