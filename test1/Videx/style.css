@@ -39,21 +39,43 @@ header{
 .header-top,
 .header-top-office{
     display: flex;
+    align-items: center;
 }
 .header-top{
-    width: 90%;
+    width: 85%;
     justify-content: space-around;
-    align-items: center;
 }
 .header-top-link a {
     padding: 0 60px 12px 10px;
 }
 .logo {
-    width: 10%;
+    width: 15%;
 }
 .header-top-office div{
     padding: 8px 30px 12px 10px
 }
+.header-top-office-basket{
+    background-color: #E1E1E1;
+    border-radius: 20px;
+    height: 40px;
+}
+.header-top-office-basket img{
+    padding-right: 15px;
+    border-right: 2px solid white;
+
+}
+
+.header-top-office-basket span{
+    color: #5B6770;
+    padding-left: 7px;
+}
+
+
+.header-top select{
+    border: none;
+    background-color: inherit;
+}
+
 .header-bottom{
     width: 100%;
     height: 53px;
@@ -406,6 +428,7 @@ width: 100%;
     width: 318px;
     height: 40px;
     margin-bottom: 10px;
+    border-radius: 5px 5px 10px 5px;
 }
 .right-block-second{
     width: 100%;
@@ -426,6 +449,7 @@ width: 100%;
 }
 .right-block-second-element span{
     margin-left: 10px;
+    width: 70px;
 }
 
 .right-block-third-content{
@@ -609,12 +633,12 @@ footer{
     }
 
     .middle-block {
-        width: 600px;
+        width: 630px;
         margin-top:35px;
     }
 
     .middle-block-first img {
-        width: 590px;
+        width: 630px;
     }
 
     .middle-block-first {
@@ -623,10 +647,14 @@ footer{
     .middle-block-second-content1{
        width: 215px;
     }
+    .middle-block-second{
+        height: 175px;
+    }
     .middle-block-second-content1,
     .middle-block-second-content2,
     .middle-block-second-content3{
         padding-left: 20px;}
+
     .middle-block-second-content2 {
         display: flex;
         flex-wrap: wrap;
@@ -634,6 +662,8 @@ footer{
         border: none;
 
     }
+    .middle-block-second-content3{}
+
     .left-block-content-place{
         height: 190px;
         justify-content: center;
