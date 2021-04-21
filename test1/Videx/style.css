@@ -2,12 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Ubuntu, serif;
 }
 
 body{
     background: #F9F9F9;
 }
 p{
+    font-family: Ubuntu, serif;
     margin: 15px 0;
  }
 a {
@@ -249,6 +251,7 @@ input::placeholder {
     line-height: 14px;
     margin-bottom: 15px;
     position: relative;
+    white-space: normal;
 }
 .file-decorate1:hover{
     background-color: #84C400;
@@ -391,6 +394,7 @@ width: 100%;
     line-height: 14px;
     margin-bottom: 15px;
     position: relative;
+    white-space: normal;
 
 }
 .file-decorate2:hover {
@@ -489,6 +493,7 @@ width: 100%;
     height: 40px;
     margin-bottom: 10px;
     border-radius: 5px 5px 10px 5px;
+    border: none;
 }
 .right-block-second{
     width: 100%;
@@ -1082,6 +1087,7 @@ footer{
         color: #5B6770;
         border: 1px solid #5B6770 ;
         white-space: normal;
+        background-color: white;
     }
     .block-3-top-left select{
         border-radius: 5px 5px 5px 15px;
