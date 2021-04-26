@@ -726,12 +726,15 @@ footer{
        width: 215px;
     }
     .middle-block-second{
-        height: 175px;
+        height: 179px;
     }
     .middle-block-second-content1,
     .middle-block-second-content2,
     .middle-block-second-content3{
         padding-left: 20px;}
+    .middle-block-second-content3{
+        padding-bottom: 10px;
+    }
 
     .middle-block-second-content2 {
         display: flex;
