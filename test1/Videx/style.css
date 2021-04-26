@@ -288,7 +288,7 @@ input::placeholder {
 .left-block-third-pallet-element{
     height: 35px;
     width: 35px;
-    background-image: linear-gradient(red, yellow);
+    background-image: linear-gradient(blue, red);
 }
 .left-block-third-pallet::-webkit-scrollbar{
     width: 7px;
@@ -779,7 +779,69 @@ footer{
 //////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
  */
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1170px){
+    .container{
+        width:1090px;
+    }
+    .container-2{
+        margin: 0 18px 0 5px;
+        width: 30%;
+    }
+    .middle-block-second a{
+        margin-right: 5px;
+        color: #FF7A00;
+        font-size: 13px;
+    }
+    .middle-block-second-content1{
+        width: 143px;
+    }
+    .middle-block-second-content2 {
+        width: 325px;
+    }
+
+    .middle-block-second-content1,
+    .middle-block-second-content2,
+    .middle-block-second-content3{
+        padding-left: 10px;
+    }
+
+    .left-block-first{
+        height: 250px;
+    }
+    .left-block-second{
+        height: 150px;
+    }
+    .left-block-fourth{
+        height: 115px;
+    }
+    .left-block-six{
+        height: 110px;
+    }
+    .right-block .container-2{
+        margin-left:15px ;
+    }
+    .left-block-fifth-choice{
+        height: 52px;
+    }
+    .middle-block-first img {
+        width: 475px;
+        margin-right: 15px;
+    }
+    .left-block-third{
+        height: 210px;
+    }
+    .left-block-fourth-content{
+        height: 63px;
+    }
+    .horizontal{
+        height: 55px;
+    }
+    .rozetka img{
+        height: 60px;
+    }
+    .middle-block{
+        width: 43%;
+    }
     .logo-man{
         display: none;
     }
@@ -792,7 +854,13 @@ footer{
     .middle-block-first img {
         object-fit: cover;
     }
-
+    .right-block-first,
+    .right-block-fifth{
+        width: 100%;
+    }
+    .header-top-link a {
+        padding: 0px 0px 12px 10px;
+    }
 }
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -806,7 +874,7 @@ footer{
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////
 //////////////////////////////////////////*/
-@media screen and (max-width: 800px){
+@media screen and (max-width: 900px){
     .container{
           width:722px;
       }
@@ -814,6 +882,12 @@ footer{
     .header-bottom{
         display: none;
 
+    }
+    .form-file{
+        margin-top: 30px;
+    }
+    .left-block-fifth p{
+        margin-top: 44px;
     }
     .header-bottom-2{
         visibility: visible;
@@ -825,6 +899,9 @@ footer{
         align-items: center;
         border-right: 2px solid white;
 
+    }
+    .right-block-first{
+        width: 100%;
     }
     .search {
         height: 100%;
@@ -851,6 +928,11 @@ footer{
         flex-wrap: wrap;
         justify-content: center;
     }
+    .form-file{
+        align-items: center;
+        height: 71px;
+    }
+
     .top-right{
         width: 50%;
         margin-left: 15px;
@@ -895,6 +977,32 @@ footer{
         height: 71px;
         margin-bottom: 10px;
     }
+
+    .middle-block-second-content1,
+    .middle-block-second-content2,
+    .middle-block-second-content3{
+        padding-left: 20px;
+    }
+    .right-block-fifth{
+        width: 50%;
+    }
+    .middle-block-second a{
+        margin-right: 10px;
+        font-size: 16px;
+    }
+    .middle-block-second-content2 {
+        width: 342px;
+    }
+    .middle-block-second-content1{
+        width: 226px;
+    }.right-block-first-mechanizm{
+    height: 109px;
+         }
+    .right-block-first-mechanizm select { width: 318px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 5px 5px 10px 5px;
+    border: none;}
 
     .left-block-third-pallet,
     .left-block-content-place{
@@ -1123,6 +1231,14 @@ footer{
     .right-block-first select{
         border-radius: 5px 5px 15px 5px;
     }
+    .footer-block-content-menu a,
+    .footer-block-content-service a,
+    .footer-block-content-contact a{
+        font-size:14px ;
+    }
+    .left-block-fifth p{
+          margin-top: 15px;
+      }
 }
 @media screen and (max-width: 360px) {
     .container{
@@ -1147,6 +1263,7 @@ footer{
     .header-top{
         padding-left: 143px;
     }
+
 
 }
 
