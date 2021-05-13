@@ -408,7 +408,7 @@
 
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1000px){
     .menu{
         margin-left:20px ;
     }
@@ -437,17 +437,23 @@
     }
 
 }
-@media screen and (max-width: 550px){
-    .photos{
-        justify-content: center;
-    }
+@media screen and (max-width: 630px){
     .right-block-header{
         flex-wrap: wrap;
         justify-content: center;
-    }
+    }  .photos{
+           justify-content: center;
+       }
+
     .right-block-second-header{
         width: 90%;
     }
+}
+
+@media screen and (max-width: 320px){
+.right-block-header-left{
+    font-size: 25px;
+}
 }
 
 
