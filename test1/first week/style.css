@@ -395,14 +395,14 @@
     border-radius:0 0 15px 15px ;
 
 }
-.site-name2:before{
+/*.site-name2:before{
     content: "";
     background-image: url("img/dwe galochki.svg");
     height: 19px;
     width: 22px;
     position: absolute;
     left: 25px;
-}
+}*/
 .site-name2:after{
     content: "";
     width: 16px;
@@ -410,20 +410,24 @@
     background-image: url("img/lupa.svg");
     position: absolute;
     right: 35px;
-
 }
+
 .left-block2-header{
     position:fixed;
     top: 0;
     width: 100%;
     z-index: 99999;
+    display: flex;
 }
+
+
 @media screen and (max-width: 1000px){
     .menu{
         margin-left:20px ;
     }
     .left-block{
         display: none;
+
     }
     .left-block2{
         display: block;
@@ -446,7 +450,24 @@
        width:  100%;
         margin-top: 65px;
     }
+    .hidden-menu{
+        position: absolute;
+        left: 25px;
+    }
+    .hidden-menu:active{
+        background-color: white;
+        border-radius: 5px;
 
+    }
+    #reveal{
+        display: none;
+    }
+    #reveal:checked + .left-block{
+        display: block;
+        position: absolute;
+        z-index: 999;
+
+    }
 }
 @media screen and (max-width: 630px){
     .right-block-header{
