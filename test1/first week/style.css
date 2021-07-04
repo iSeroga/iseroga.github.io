@@ -429,7 +429,9 @@ a{
 .mobile-header{
     padding-top: 15px;
 }
+
 @media screen and (max-width: 1000px){
+
     .menu{
         margin-left:20px ;
     }
@@ -475,7 +477,7 @@ a{
     #reveal{
         display: none;
     }
-    .mobile-menu{
+    .show-menu{
         display: block;
     }
     .user-photo{
